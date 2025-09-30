@@ -4,7 +4,10 @@ public class Exercice15 {
 
     public static void main(String[] args) {
 
-        int hauteurSapin = 11;
+        int hauteurSapin = 5;
+
+        // i pour les lignes
+        // j pour les colonnes
 
         /*
         for i in range(taille):
@@ -22,5 +25,7 @@ public class Exercice15 {
             }
             System.out.println();
         }
+
+
     }
 }
