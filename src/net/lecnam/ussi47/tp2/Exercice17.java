@@ -16,6 +16,21 @@ public class Exercice17 {
                     System.out.println("Dessin du sapin avec une base de " + nbEtoiles);
 
                     // Saisir votre code ici
+                    int hauteurSapin = (nbEtoiles / 2) + 1;
+
+                    // i pour les lignes
+                    // j pour les colonnes
+
+
+                    for (int i = 0; i <= hauteurSapin; i++) {
+                        for (int j = 1; j <= (hauteurSapin - i); j++) {
+                            System.out.print(' ');
+                        }
+                        for (int j = 1; j <= (2 * i + 1); j++) {
+                            System.out.print('*');
+                        }
+                        System.out.println();
+                    }
 
 
                 }
