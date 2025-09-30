@@ -11,7 +11,7 @@ public class Exercice5 {
         float puissancetot = puissance * surfacepiece/surface;
         float nbradiateur = puissancetot / 500;
         nbradiateur = (float)Math.ceil(nbradiateur);
-        System.out.println(nbradiateur);
+        System.out.println("Le nombre de radiateur nécessaires est : " + nbradiateur);
 
 
 
