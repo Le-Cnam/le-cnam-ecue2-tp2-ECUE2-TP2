@@ -11,4 +11,3 @@ public class Exercice11 {
                 System.out.println(mot2);
             }
         }
-        
